@@ -16,7 +16,7 @@ export class NewsItem extends Component {
           <div className="card-body">
             <h5 className="card-title">{this.props.title}</h5>
             <p className="card-text">{this.props.description}</p>
-            <a href="#" className="btn btn-sm btn-primary">
+            <a href={this.props.newsURL} target="_blank" className="btn btn-sm btn-primary">
               Read more
             </a>
           </div>

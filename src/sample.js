@@ -157,19 +157,7 @@ const articles=
         "publishedAt": "2022-03-08T11:26:02Z",
         "content": "All Indian students numbering around 570 have been evacuated from Sumy, the northeastern Ukrainian city. Hindustan Times has learnt that the total number of people who were evacuated from Sumy is aro… [+1204 chars]"
       },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": null,
-        "title": "Leading OTT platform wanted The Kashmir Files to not use the term ‘Islamic Terrorism’ or insert ‘Hindu terrorism’ in dialogues, Vivek Agnihotri reveals - OpIndia",
-        "description": null,
-        "url": "https://news.google.com/__i/rss/rd/articles/CBMibGh0dHBzOi8vd3d3Lm9waW5kaWEuY29tLzIwMjIvMDMvdGhlLWthc2htaXItZmlsZXMtbmV0ZmxpeC1yZWxlYXNlLWlzbGFtaWMtdGVycm9yaXNtLWthc2htaXJpLWhpbmR1LWdlbm9jaWRlL9IBAA?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2022-03-08T11:18:13Z",
-        "content": null
-      },
+      
       {
         "source": {
           "id": null,
@@ -183,19 +171,7 @@ const articles=
         "publishedAt": "2022-03-08T11:10:22Z",
         "content": "An equipment onboard Indias 2017 Chandrayaan-2 orbiter has made new observations about the distribution of an important gas in the moons upper atmosphere, which can offer new insights into the lunar … [+2001 chars]"
       },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": null,
-        "title": "Share Market HIGHLIGHTS: Sensex ends 1,163 pts up from day’s low, Nifty closes above 16000; Infosys, TCS shine - The Financial Express",
-        "description": null,
-        "url": "https://news.google.com/__i/rss/rd/articles/CBMixwFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9tYXJrZXQvc2hhcmUtbWFya2V0LXRvZGF5LWxpdmUtdXBkYXRlcy1zZW5zZXgtbmlmdHktcnVwZWUtdnMtZG9sbGFyLXNneC1uaWZ0eS1uYXNhcS1iZWFyLW1hcmtldC1jcnVkZS1vaWwtcnVzc2lhLXVrcmFpbmUtd2FyLXRjcy1idXliYWNrLTgtbWFyY2gtMjAyMi10dWVzZGF5LzI0NTM2OTUv0gEA?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2022-03-08T11:03:53Z",
-        "content": null
-      },
+      
       {
         "source": {
           "id": null,

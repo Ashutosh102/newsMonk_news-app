@@ -2,38 +2,34 @@ import React, { Component } from "react";
 import articles from "../sample";
 import NewsItem from "./NewsItem";
 export class News extends Component {
-   sample=articles;
-  constructor(props){
+  sample = articles;
+  constructor(props) {
     super(props);
-    this.state={
-        loading:false,
-        articles:[this.sample]
-    }
-  console.log(this.state.articles)
+    this.state = {
+      loading: false,
+      articles: this.sample,
+    };
   }
 
   render() {
     return (
       <div className="container my-3">
         <h3>Top Headlines</h3>
-        <div className="row">
-          <div className="col-md-4">
-            <NewsItem
-              title="mytitle"
-              description="description"
-              imageURL="https://static01.nyt.com/images/2022/03/07/business/00russiaoil-1/00russiaoil-1-facebookJumbo.jpg"
-              itemId=""
-            />
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="mytitle" description="description" imageURL="" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="mytitle" description="description" imageURL="" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="mytitle" description="description" imageURL="" />
-          </div>
+        <div className="row" >
+        {this.state.articles.map((items,id) => {
+          return (
+           
+              <div className="col-md-4" key={items.url}>
+                <NewsItem
+                  title={items.title.slice(0,45)+".."}
+                  description={items.description.slice(0,85) +"..."}
+                  imageURL={items.urlToImage}
+                  newsURL={items.url}
+                />
+              </div>
+           
+          );
+        })}
         </div>
       </div>
     );
