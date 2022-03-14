@@ -7,9 +7,9 @@ export class Navbar extends Component {
           <div className="logo">Newsmonk</div>
           <div className="rest">
             <ul>
-              <li><a href="">Home</a></li>
+              <li><a href="#">Home</a></li>
               
-              <li><a href="">About</a></li>
+              <li><a href="#">About</a></li>
             </ul>
           </div>
 
