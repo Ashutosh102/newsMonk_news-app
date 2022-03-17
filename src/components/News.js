@@ -88,7 +88,7 @@ export class News extends Component {
         <div className="container-fluid page-button my-4 mx-2">
           <button
             disabled={this.state.pg <= 1}
-            className="btn-sm btn btn-info text-light mx-5 "
+            className="btn-sm btn  text-light mx-5 "
             onClick={this.handlePrevious}
           >
             &larr; Previous
