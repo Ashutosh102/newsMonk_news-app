@@ -1,11 +1,11 @@
-
-.logo,.rest{
-    color:white;
-    font-size: 2em;
-    margin-left: 1em;
+.logo{
+color:#61A4BC !important;
+ font-family: 'Oleo Script', cursive;
 }
-.rest{
-    font-size: 1.5em;
+
+.navbar{
+    background-color:#1A132F!important;
+  
 }
 .headline{
     font-family: 'Oleo Script', cursive;
@@ -34,34 +34,20 @@
     justify-content: space-between;
     align-items: center;
 }
-ul{
-    list-style: none; 
-    margin-top: 0.7em;
+.sp-font{
+    font-family: 'Oleo Script', cursive;
 }
-li{
-    display:  inline;
-    margin-left:15%;
+.nav-link{
+    color:white !important;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+}
+.nav-link:hover{
+    color:#61A4BC !important;
+    transform: scale(1.03);
+}
+.navbar-toggler{
+    background-color:#61A4BC !important;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-}
-a:hover{
-    color:lightblue;
-}
-@media (max-width:834px){
-    li{
-        display: block;
-        font-size: 0.9em;
-    }
-    .news-nav{
-        justify-content:space-around;
-        transition: ease-in 1s;
-    }
-    .logo{
-        transform: translate(-10vw);
-        transition: ease-in 0.8s;
-    }
-   
-}
+
+
