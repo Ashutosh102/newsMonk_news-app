@@ -7,7 +7,7 @@ export class NewsItem extends Component {
   render() {
     return (
       <div className="my-3">
-        <div className="card" style={{ width: "15rem" }}>
+        <div className="card" style={{ width: "14em" }}>
           <img
             className="card-img-top"
             src={this.props.imageURL}
