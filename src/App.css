@@ -1,53 +1,65 @@
-.logo{
-color:#61A4BC !important;
- font-family: 'Oleo Script', cursive;
+body {
+  --color1: #61a4bc;
+  --color2: #1a132f;
+  --aqua3: mediumaquamarine;
+  --color4:#bbeff8ce;
+  --boxshadow:#e6e1e1ce;
 }
-
-.navbar{
-    background-color:#1A132F!important;
+.sp-font {
+  font-family: "Oleo Script", cursive;
+}
+.logo {
+  color: var(--color1) !important;
+  font-family: "Oleo Script", cursive;
   
 }
-.headline{
-    font-family: 'Oleo Script', cursive;
-    color:mediumaquamarine;
-    box-shadow:  -1.6px  3px 10px #bbeff8ce ;
-    border-radius: 0.5em;
-    margin-bottom: 3vh;
+ 
+
+
+.navbar {
+  background-color: var(--color2) !important;
 }
-.headline:hover{
-    text-decoration:underline;
-    cursor: pointer;
+.headline {
+  font-family: "Oleo Script", cursive;
+  color: var(--aqua3);
+  box-shadow: -1.6px 3px 10px var(--color4);
+  border-radius: 0.5em;
+  margin-bottom: 3vh;
 }
-.card{
-    border-radius: 1em;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-    box-shadow: -1.6px  3px 10px #e6e1e1ce ;
+.headline:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
-.card:hover{
-    transform: scale(1.01);
+.card {
+  border-radius: 1em;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  box-shadow: -1.6px 3px 10px var(--boxshadow);
 }
-.card-img-top{
-    border-radius: 1em 1em 0.1em 0.1em;
+.card:hover {
+  transform: scale(1.01);
 }
-.page-button{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.card-img-top {
+  border-radius: 1em 1em 0.1em 0.1em;
 }
-.sp-font{
-    font-family: 'Oleo Script', cursive;
+.page-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .nav-link{
-    color:white !important;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+  color: white !important;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 }
-.nav-link:hover{
-    color:#61A4BC !important;
-    transform: scale(1.03);
+.nav-link:hover {
+  color: var(--color1) !important;
+  
+  transform: scale(1.03);
 }
-.navbar-toggler{
-    background-color:#61A4BC !important;
+.navbar-toggler {
+  background-color: var(--color1) !important;
 }
-
-
-
+.btn-color {
+  background-color: var(--color1) ;
+  color:white;
+}
