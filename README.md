@@ -10,7 +10,7 @@
 
 ## Authors
 
-- [@0Pixel0](https://www.github.com/0Pixel0)
+- [@0Pixel0](https://www.github.com/Ashutosh102)
 
 
 ## Contributing
@@ -36,7 +36,7 @@ Contributions are always welcome!
 Clone the project
 
 ```bash
-  git clone https://github.com/0Pixel0/news-monk
+  git clone https://github.com/Ashutosh102/newsMonk_news-app.git
 ```
 
 Go to the project directory
@@ -63,6 +63,6 @@ Start the server
 Project cant be deployed due to API constraints.
 ## Support
 
-For support, email ashutoshpunia690@gmail.com
+For support, email ashutoshmohanty3815@gmail.com
 
 

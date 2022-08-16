@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from "react";
 import{FaHome,FaInfo} from "react-icons/fa";
 import { BrowserRouter as  Link } from "react-router-dom";
@@ -26,11 +27,7 @@ export class Navbar extends Component {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav sp-font h5">
            
-            <li className="nav-item mx-2">
-              <a className="nav-link" href="/About">
-                <FaInfo/>
-              </a>
-            </li>
+            
            
             <li className="nav-item mx-2">
               <a className="nav-link" href="/Business" >
