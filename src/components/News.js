@@ -64,7 +64,7 @@ export class News extends Component {
           <div className="row">
           {/* news items mapping */}
             {!this.state.loading &&
-              this.state.articles.map((items, id) => {
+              this.state.articles.map((items) => {
                 return (
                   <div className="col-md-4 col-sm-6 col-xs-12" key={items.url}>
                     <NewsItem
@@ -100,7 +100,7 @@ export class News extends Component {
           <div className="page-count">{this.state.pg}</div>
           <button
             disabled={
-              !(this.state.pg + 1 <= Math.ceil(this.state.totalArticles / 12))
+              this.state.pg + 1 > Math.ceil(this.state.totalArticles / 12)
             }
             className="btn-sm btn btn-color mx-5"
             onClick={this.handleNext}
